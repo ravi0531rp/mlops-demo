@@ -23,3 +23,15 @@ git remote add origin https://github.com/ravi0531rp/mlops-demo.git
 git push -u origin main
 
 ```
+
+* Add the .gitignore (preferably on github as it gives a good template) and then pull the changes to local. 
+
+* Create setup.py and requirements.txt in root directory!
+
+* Add the setup code to setup.py
+
+* Create a src folder at root and then create an __init__.py file inside it. That will help src become a package.
+
+* Since we added a ```-e .``` in the requirements.txt file, so when we run ```pip install -r requirements.txt``` , it also builds our package using the setup.py file.
+
+* Once done, it creates a ```mlops_demo.egg-info``` folder as our built package.
