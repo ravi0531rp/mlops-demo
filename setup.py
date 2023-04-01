@@ -12,7 +12,7 @@ def get_requirements(file_path: str) -> List[str]:
 
     Returns:
         List[str]: List of Libraries to Install
-    """    
+    """
     requirements = []
     with open(file_path, "r", encoding="utf-8") as file_read:
         requirements = file_read.readlines()
